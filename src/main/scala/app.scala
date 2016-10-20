@@ -1,5 +1,7 @@
-object app {
-  def main(args: Array[String]) {
-    println("Hello World!")
+import scala.scalajs.js.JSApp
+
+object app extends JSApp {
+  def main() {
+    println("Hello scalajs!")
   }
 }
